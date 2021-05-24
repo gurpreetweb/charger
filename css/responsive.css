@@ -1,0 +1,147 @@
+/* responsive start*/
+@media(max-width:1480px){
+    .invalidemailmsg {
+        top:10px;
+        transform: translateY(0px);
+    }
+}
+@media(max-width:1350px){
+    .navbar-expand-lg .navbar-toggler {
+        display: block!important;
+    }
+    .navbar-expand-lg .navbar-collapse.collapse{
+        display: none!important;
+        flex-basis: 100%!important;
+    }
+    .dashboard-header-wrapper .dashboard-header nav.navbar.navbar-expand-lg {
+        justify-content: space-between;
+        flex-flow: wrap;
+    }
+    .dashboard-header-wrapper .dashboard-header .navbar-collapse.collapse.show,
+    .dashboard-header-wrapper .dashboard-header .navbar-collapse.collapsing {
+        display: block!important;
+    }
+    .dashboard-header-wrapper .dashboard-header nav.navbar ul.main-menu {
+        flex-direction: column!important;
+    }
+    .dashboard-header-wrapper .dashboard-header div#navbarResponsive {
+        position: absolute;
+        left: 0px;
+        top: calc(100% - 20px);
+    }
+    .dashboard-header-wrapper .dashboard-header div#navbarResponsive {
+        position: absolute;
+        left: -15px;
+        top: calc(100% - 10px);
+        background: #302e88;
+        width: 300px;
+        padding-left: 0px;
+    }
+    .dashboard-header-wrapper .dashboard-header nav.navbar ul li a {
+        padding: 10px 15px 10px 25px;
+    }
+    .dashboard-header-wrapper .dashboard-header nav.navbar ul.main-menu li{
+        border-bottom: 1px solid #ffffff;
+    }
+    .dashboard-header-wrapper .dashboard-header nav.navbar ul li:last-child{
+        border-bottom: none;
+    }
+}
+@media(min-width:1400px){
+    .dashboard-header-wrapper .dashboard-header nav.navbar ul li a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media(min-width:1500px){
+    .dashboard-header-wrapper .dashboard-header nav.navbar ul li a {
+        padding-left: 13px;
+        padding-right: 13px;
+        font-size: 19px;
+    }
+   
+}
+@media(min-width:1600px){
+    .dashboard-header-wrapper .dashboard-header nav.navbar ul li a {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 20px;
+    }
+    .virtual-section .virtual-list-box ul li .virtual-download-img a {
+        font-size: 22px;
+    }
+}
+@media(min-width:1700px){
+    .dashboard-header-wrapper .dashboard-header nav.navbar ul li a {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 20px;
+    }
+    .chanrgevideo .videodescription .video-content{
+        font-size: 26px;
+    }
+    .sponserlogo-sec .sponser-heading h1,
+    .photobooth-sec .photobooth-heading h1,
+    .virtual-section .virtual-heading h1
+    .homeacbox ul li{
+        font-size: 55px;
+    }
+    .virtual-section .virtual-list-box ul li .virtual-download-img a {
+        font-size: 24px;
+    }
+}
+@media(max-width:1200px){
+    .homeacbox ul li{
+        font-size: 35px;
+    }
+    .main-menubar #nav-icon{
+        margin:15px 0px;
+    }
+}
+@media(max-width:1030px){
+    .chanrgevideo .videodescription .video-content{
+        font-size: 20px;
+    }
+    .sponserlogo-sec .splogo-wrapper .slick-next:before,
+    .sponserlogo-sec .splogo-wrapper .slick-prev:before{
+        background-size: 25px 60px;
+    }
+    .sponserlogo-sec .splogo-wrapper .slick-prev:before{
+        left: -27px;
+    }
+    .homeacbox {
+        padding: 35px 28px;
+    }
+    .homeacbox ul li img {
+        max-width: 95px;
+    }
+    .homeacbox ul li{
+        font-size: 25px;
+    }
+    .virtual-section .virtual-heading h1,
+    .sponserlogo-sec .sponser-heading h1,
+    .photobooth-sec .photobooth-heading h1{
+        font-size: 30px;
+    }
+    section.advertisement-wrapper .advertisement-img .slick-next:before,
+    section.advertisement-wrapper .advertisement-img .slick-prev:before{
+        background-size: 30px 65px;
+    }
+    section.advertisement-wrapper .advertisement-img .slick-prev:before{
+        left: -22px;
+    }
+    .navbar-expand-lg .navbar-nav .dropdown-menu{
+        position: absolute;
+    }
+}
+@media(max-width:960px){
+    .virtual-section .virtual-list-box ul li{
+        width: 50%;
+    }
+    .sponserlogo-sec .splogo-wrapper .slick-next:before{
+        right: -44px;
+    }
+    .sponserlogo-sec .splogo-wrapper .slick-prev:before {
+        left: -17px;
+    }
+}
